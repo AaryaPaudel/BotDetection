@@ -1,0 +1,27 @@
+#!/bin/bash
+# Script to connect local repository to GitHub and push
+
+echo "=========================================="
+echo "GitHub Repository Setup"
+echo "=========================================="
+echo ""
+echo "Step 1: Create a new repository on GitHub"
+echo "   - Go to: https://github.com/new"
+echo "   - Repository name: BotDetection"
+echo "   - Description: Fake Review Detection System - AI Coursework CU6051NI"
+echo "   - Visibility: Public (or Private)"
+echo "   - DO NOT initialize with README, .gitignore, or license"
+echo "   - Click 'Create repository'"
+echo ""
+echo "Step 2: After creating the repo, run this command:"
+echo ""
+echo "   git remote add origin https://github.com/AaryaPaudel/BotDetection.git"
+echo "   git branch -M main"
+echo "   git push -u origin main"
+echo ""
+echo "Or if you prefer SSH:"
+echo "   git remote add origin git@github.com:AaryaPaudel/BotDetection.git"
+echo "   git branch -M main"
+echo "   git push -u origin main"
+echo ""
+
